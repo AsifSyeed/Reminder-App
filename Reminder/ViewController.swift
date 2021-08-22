@@ -22,6 +22,13 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
         
     }
 
+    
+    @IBAction func addReminderButton(_ sender: Any) {
+    }
+    
+    @IBAction func testReminderButton(_ sender: Any) {
+    }
+    
 
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return tableDataModel.count
